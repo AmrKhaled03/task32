@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/normalize.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <title>Solar System</title>
+</head>
+<body>
+<div class="icon" style="display: flex; justify-content: flex-end; padding: 30px 50px; font-size: 30px;">
+  <i class="fa-solid fa-bars" style="color: white; " onclick="openNav()"></i>
+</div>
+  <section id="section">
+  <nav>
+<ul>
+  <li data-text="Sun"><a href="">Sun</a></li>
+  <li data-text="Mercury"><a href="">Mercury</a></li>
+  <li data-text="Venus"><a href="">Venus</a></li>
+  <li data-text="Earth"><a href="">Earth</a></li>
+  <li data-text="Jupter"><a href="">Jupter</a></li>
+  <li data-text="Saturn"><a href="">Saturn</a></li>
+  <li data-text="Uranus"><a href="">Uranus</a></li>
+  <li data-text="Neptune"><a href="">Neptune</a></li>
+</ul>
+ </nav>   
+  </section>
+<script>
+  const openNav=()=>{
+    document.getElementById("section").classList.toggle("active");
+  }
+</script>
+</body>
+</html>
